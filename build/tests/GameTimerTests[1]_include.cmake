@@ -1,0 +1,5 @@
+if(EXISTS "E:/GitHub/GameTimerModule/build/tests/GameTimerTests[1]_tests.cmake")
+  include("E:/GitHub/GameTimerModule/build/tests/GameTimerTests[1]_tests.cmake")
+else()
+  add_test(GameTimerTests_NOT_BUILT GameTimerTests_NOT_BUILT)
+endif()

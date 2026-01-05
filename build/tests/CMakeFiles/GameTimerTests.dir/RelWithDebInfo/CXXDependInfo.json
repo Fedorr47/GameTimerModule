@@ -1,0 +1,35 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "RelWithDebInfo",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "E:/GitHub/GameTimerModule/build/tests",
+	"dir-cur-src" : "E:/GitHub/GameTimerModule/tests",
+	"dir-top-bld" : "E:/GitHub/GameTimerModule/build",
+	"dir-top-src" : "E:/GitHub/GameTimerModule",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"E:\\GitHub\\GameTimerModule\\extern\\googletest\\googletest\\include",
+		"E:\\GitHub\\GameTimerModule\\extern\\googletest\\googletest"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"E:/GitHub/GameTimerModule/build/CMakeFiles/GameTimerLib.dir/RelWithDebInfo",
+		"E:/GitHub/GameTimerModule/build/CMakeFiles/__cmake_cxx23.dir/RelWithDebInfo"
+	],
+	"module-dir" : "E:/GitHub/GameTimerModule/build/tests/CMakeFiles/GameTimerTests.dir/RelWithDebInfo",
+	"sources" : 
+	{
+		"tests/CMakeFiles/GameTimerTests.dir/RelWithDebInfo/test_timer_basic.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "E:/GitHub/GameTimerModule/tests/test_timer_basic.cpp"
+		}
+	}
+}

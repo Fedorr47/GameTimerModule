@@ -1,0 +1,15 @@
+{
+	"Configs" : 
+	[
+		"Debug"
+	],
+	"InstallScripts" : 
+	[
+		"E:/GitHub/GameTimerModule/build/cmake_install.cmake",
+		"E:/GitHub/GameTimerModule/build/extern/googletest/cmake_install.cmake",
+		"E:/GitHub/GameTimerModule/build/extern/googletest/googlemock/cmake_install.cmake",
+		"E:/GitHub/GameTimerModule/build/extern/googletest/googletest/cmake_install.cmake",
+		"E:/GitHub/GameTimerModule/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
