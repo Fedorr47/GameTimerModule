@@ -1,4 +1,5 @@
 module;                 // global module fragment
+
 #include <chrono>
 #include <algorithm>
 #include <cstdint>
@@ -59,15 +60,7 @@ void GameTimer::Tick()
 	previousTime_ = currentTime_;
 
 	deltaTime_ = std::chrono::duration<double>(delta).count();
-	
-	if (deltaTime_ < 0.0)
-	{
-		deltaTime_ = 0.0;
-	}
-	if (deltaTime_ > maxDeltaSec_)
-	{
-		deltaTime_ = maxDeltaSec_;
-	}
+	deltaTime_ = std::clamp(deltaTime_, 0.0, maxDeltaSec_);
 }
 
 double GameTimer::GetTotalTime() const

@@ -15,7 +15,6 @@ TEST(GameTimer, ResetSetsZeroState)
 TEST(GameTimer, StartState)
 {
     GameTimer timer;
-    timer.Reset();
     timer.Start();
 
     auto state = timer.GetState();
@@ -27,7 +26,6 @@ TEST(GameTimer, StartState)
 TEST(GameTimer, PausedTimer)
 {
     GameTimer timer;
-    timer.Reset();
     timer.Start();
     timer.Stop();
 
@@ -38,7 +36,6 @@ TEST(GameTimer, PausedTimer)
 TEST(GameTimer, UnPausedTimer)
 {
     GameTimer timer;
-    timer.Reset();
 	timer.Stop();
     timer.Start();
 
@@ -49,7 +46,6 @@ TEST(GameTimer, UnPausedTimer)
 TEST(GameTimer, AfterTick)
 {
     GameTimer timer;
-    timer.Reset();
     timer.Start();
     timer.Tick();
 

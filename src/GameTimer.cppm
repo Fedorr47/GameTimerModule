@@ -47,7 +47,7 @@ public:
 	void SetMaxDelta(double sec) { maxDeltaSec_ = std::max(0.0, sec); };
 	double GetMaxDelta() const { return maxDeltaSec_; };
 
-	TimeState GetState() const { return { GetTotalTime(), GetDeltaTime() }; }
+	TimeState GetState() const { return { GetTotalTime(), GetDeltaTime() }; } 
 	
 private:
 	
